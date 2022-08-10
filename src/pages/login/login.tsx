@@ -30,7 +30,7 @@ export const Login = () =>{
                         </div>
 
                         <div className={styles.forgot}>
-                            <Link className={styles.txt3} to=''>Esqueceu sua senha?</Link>
+                            <Link className={styles.txt__3} to=''>Esqueceu sua senha?</Link>
                         </div>
 
                         <div className={styles.containerLogin__btn}>
@@ -40,8 +40,8 @@ export const Login = () =>{
                         </div>
 
                         <div className={styles.text__center}>
-                            <span className={styles.txt1}>Não possui conta?</span>
-                            <Link className={styles.txt2} to='/register'>Criar conta.</Link>
+                            <span className={styles.txt__1}>Não possui conta?</span>
+                            <Link className={styles.txt__2} to='/register'>Criar conta.</Link>
                         </div>
                     </form>
             </div>

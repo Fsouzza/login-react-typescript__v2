@@ -52,7 +52,7 @@ export const Register = () => {
                         <span className={styles2.login__form__title}>Sign Up</span>
                         
                         <div className={styles.formInputs}>
-                            <label htmlFor="name">Nome Completo:</label>
+                            <label htmlFor="name">Nome completo:</label>
                             <input className={nameErr === true ? `${styles.inputError} ${styles.inputForm}` : `${styles.inputForm}`} name="name" type="text" value={name} onChange={e => setRegisterData({name: e.target.value, email, password, repeatPassword})} required/>
                             {nameErr && <span className={styles.erroRegex}>Digite seu Nome e Sobrenome</span>}
                         </div>
@@ -77,8 +77,8 @@ export const Register = () => {
                         </div>
 
                         <div className={styles2.text__center}>
-                            <span className={styles2.txt1}>Já possui possui um cadastro?</span>
-                            <Link className={styles2.txt2} to='/'>Acesse.</Link>
+                            <span className={styles2.txt__1}>Já possui possui um cadastro?</span>
+                            <Link className={styles2.txt__2} to='/'>Acesse.</Link>
                         </div>
                     </form>
                 </div>
