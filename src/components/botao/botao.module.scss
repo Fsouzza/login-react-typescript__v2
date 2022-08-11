@@ -14,10 +14,10 @@
     height: 50px;
     background: $gradient;
     transition: all .8s;
+    &:hover{
+        cursor: pointer;
+        transition: all .8s;
+        background: $gradient-hover;
+    }
 }
 
-.loginFormBtn:hover{
-    cursor: pointer;
-    transition: all .8s;
-    background: $gradient-hover;
-}
