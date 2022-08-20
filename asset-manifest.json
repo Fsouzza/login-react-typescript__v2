@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.de4299a9.css",
+    "main.js": "/static/js/main.507152dd.js",
+    "static/media/foxLogo.png": "/static/media/foxLogo.20cfeed1217b86ac2d5a.png",
+    "index.html": "/index.html",
+    "static/media/exclamation-triangle.svg": "/static/media/exclamation-triangle.8acf93e87526a4b10e41.svg",
+    "main.de4299a9.css.map": "/static/css/main.de4299a9.css.map",
+    "main.507152dd.js.map": "/static/js/main.507152dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de4299a9.css",
+    "static/js/main.507152dd.js"
+  ]
+}
