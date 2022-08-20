@@ -1,11 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Botao from 'components/botao';
-import {
-  validateEmail,
-  validateNome,
-  validatePassword,
-} from '../../utils/regex';
+import { validateEmail, validateNome, validatePassword,} from '../../utils/regex';
 import styles from './register.module.scss';
 import styles2 from 'pages/login/login.module.scss';
 import logo from '../../assets/img/foxLogo.png';
@@ -54,7 +50,7 @@ export const Register = () => {
         <span className={styles2.form__title}>Sign Up</span>
 
         <div className={styles.formInputs}>
-          <label htmlFor="name">Nome completo:</label>
+          <label htmlFor="name">Nome completo</label>
           <input
             className={
               nameErr === true
@@ -82,7 +78,7 @@ export const Register = () => {
         </div>
 
         <div className={styles.formInputs}>
-          <label htmlFor="email">E-mail:</label>
+          <label htmlFor="email">E-mail</label>
           <input
             className={
               emailErr === true
@@ -110,7 +106,7 @@ export const Register = () => {
         </div>
 
         <div className={styles.formInputs}>
-          <label htmlFor="password">Senha:</label>
+          <label htmlFor="password">Senha</label>
           <input
             className={
               passwordErr === true
